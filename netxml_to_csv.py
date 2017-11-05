@@ -114,7 +114,7 @@ def parse_net_xml(doc):
                 model_num = ssid.findtext('model-num')
                 # print model_num
             if ssid.findtext('dev-name')  is not None:
-                dev_name = ssid.findtext('dev-name')       
+                dev_name = ssid.findtext('dev-name')
                 # print dev_name
 
             wpaversion = ssid.findtext('wpa-version')
@@ -176,9 +176,7 @@ def parse_net_xml(doc):
         # if c_list is not None:
         #     clients.append(c_list)
     print count
-    return result 
-        
-        
+    return result
 
     #, clients
 
